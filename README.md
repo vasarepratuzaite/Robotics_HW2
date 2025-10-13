@@ -36,7 +36,7 @@ This project demonstrates a **Reaction Time Tester** built with an **Arduino Uno
 ---
 
 ## SYSTEM OVERVIEW
-1. On startup, the Serial Monitor displays the title **“Reaction Time Tester”** and loads the previously saved best time from EEPROM.  
+1. When the device starts, the Serial Monitor displays the title **“Reaction Time Tester”** and loads the previously saved best time from EEPROM. 
 2. The user presses the button to start the test.  
 3. A random delay between **1 and 5 seconds** is generated.  
 4. Once the LED turns ON, the timer starts.  
