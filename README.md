@@ -64,10 +64,7 @@ This project demonstrates a **Reaction Time Tester** built with an **Arduino Uno
 | **2** | Push Button | Trigger input using internal pull-up resistor |
 | **GND** | Common Ground | Shared between all components |
 
----
-
-### CIRCUIT DIAGRAM (TINKERCAD SCHEMATIC)
 
 
 
-## DEMO VIDEO
+
