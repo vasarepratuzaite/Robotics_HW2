@@ -2,10 +2,7 @@
 # VU MIF ROBOTICS HOMEWORK NR. 2
 
 ## MAIN GOAL
-This project demonstrates a **Reaction Time Tester** built with an **Arduino Uno**.  
-The device measures how quickly a user can respond to a visual cue (LED light).  
-When the LED turns on after a random delay, the user must press the button as fast as possible — the Arduino then calculates and displays the reaction time through the Serial Monitor.  
-The best result is saved in **EEPROM** memory, ensuring the record is preserved even after power-off.
+This project demonstrates a **Reaction Time Tester** built with an **Arduino Uno**. The device measures how quickly a user can respond to a visual cue (LED light).When the LED turns on after a random delay, the user must press the button as fast as possible — the Arduino then calculates and displays the reaction time through the Serial Monitor. The best result is saved in **EEPROM** memory, ensuring the record is preserved even after power-off.
 
 ---
 
