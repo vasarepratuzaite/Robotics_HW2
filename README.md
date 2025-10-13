@@ -25,7 +25,7 @@ This project demonstrates a **Reaction Time Tester** built with an **Arduino Uno
 | **Resistor (220Ω)** | 1 | Limits current for the LED |
 | **Push Button** | 1 | Used to start the test and record the user’s reaction |
 | **Breadboard** | 1 | Circuit prototyping base |
-| **Jumper Wires** | — | Electrical connections between components |
+
 
 ---
 
