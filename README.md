@@ -48,7 +48,7 @@ This project demonstrates a **Reaction Time Tester** built with an **Arduino Uno
 
 ## ARDUINO CODE HIGHLIGHTS
 - Uses **interrupts (attachInterrupt)** for immediate button response.  
-- Implements **finite state machine (FSM)** for smooth transitions between game states:  
+- Implements **finite state machine (FSM)** for smooth transitions between tester (game) states:  
   `WAIT_START → WAIT_RANDOM_DELAY → LED_ON_MEASURE → RESULT_SHOW`.  
 - EEPROM functions (`EEPROM.get()` / `EEPROM.put()`) store and load the best time.  
 - Debouncing logic ensures stable button reading with `millis()`.  
@@ -60,7 +60,7 @@ This project demonstrates a **Reaction Time Tester** built with an **Arduino Uno
 
 | Arduino Pin | Connection | Description |
 |--------------|-------------|--------------|
-| **13** | LED (via 220Ω resistor) | LED turns ON to signal reaction start |
+| **13** | LED (220Ω resistor) | LED turns ON to signal reaction start |
 | **2** | Push Button | Trigger input using internal pull-up resistor |
 | **GND** | Common Ground | Shared between all components |
 
