@@ -25,6 +25,16 @@ After rebooting, the LCD immediately shows the same “Best: xxxx ms” value �
 
 ---
 
+## DEMO VIDEO
+[Watch demonstration video](https://youtu.be/Eed4sBLrolo)
+
+---
+
+## PHOTO
+
+
+
+
 ## ARDUINO CODE HIGHLIGHTS
 The Arduino code follows an **asynchronous, event-driven state machine** (`WAIT_START → WAIT_RANDOM → LED_ON → SHOW_RESULT`).  
 It controls LED activation, button input, and LCD output concurrently using **non-blocking timing** with `millis()`.  
