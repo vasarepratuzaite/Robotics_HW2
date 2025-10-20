@@ -1,10 +1,7 @@
 # VU MIF ROBOTICS — HOMEWORK NR. 2
 
 ## MAIN GOAL
-This project implements a **Reaction Time Tester** using an **Arduino Uno** microcontroller.  
-The system measures how quickly a user reacts to a **visual stimulus (LED)** that appears after a random delay.  
-When the LED turns on, the user presses a button as fast as possible — the Arduino calculates the reaction time and displays it on an **LCD screen**.  
-The **best and average results** are saved in **EEPROM memory**, ensuring that the data is preserved even after power-off.
+This project implements a **Reaction Time Tester** using an **Arduino Uno** microcontroller. The system measures how quickly a user reacts to a **visual stimulus (LED)** that appears after a random delay. When the LED turns on, the user presses a button as fast as possible — the Arduino calculates the reaction time and displays it on an **LCD screen**. The **best and average results** are saved in **EEPROM memory**, ensuring that the data is preserved even after power-off.
 
 ---
 
